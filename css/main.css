@@ -164,6 +164,13 @@ hr.small {
 }
 
 #menu-toggle {
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+#menu-toggle1{
     display: none;
     position: fixed;
     z-index: 1;
@@ -213,82 +220,10 @@ hr.small {
 .about {
     padding: 50px 0;
 }
-
-
-/* Services */
-
-.services {
-    padding: 50px 0;
+.to1{
+  margin-top: 60px;
+  margin-right: 50px;
 }
-
-.service-item {
-    margin-bottom: 30px;
-}
-
-
-/* Callout */
-
-.callout {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: .8;
-}
-
-
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
-
-
-/* Footer */
 
 /*footer {
     padding: 100px 0;
