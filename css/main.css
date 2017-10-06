@@ -8,11 +8,11 @@ body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .pos{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 40vh;
 }
 .deroul{
-  margin-top: 100px;
+  margin-top: 50px;
 
 }
 .deroul ul{
@@ -225,10 +225,11 @@ hr.small {
   margin-right: 50px;
 }
 
-/*footer {
-    padding: 100px 0;
+footer {
+  /*  padding: 100px 0;*/
+  top: 100px;
 }
-*/
+
 #to-top {
     font-size: 1em;
     position: fixed;
