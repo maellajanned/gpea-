@@ -46,7 +46,10 @@ body {
     vertical-align: middle;
 }
 
+.to2{
+  margin-top: 10px;
 
+}
 
 .text-vertical-center h1 {
     font-size: 4.5em;
@@ -206,7 +209,7 @@ hr.small {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size:cover;
 }
 .trad{
   position: relative;
